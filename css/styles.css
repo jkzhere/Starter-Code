@@ -1,0 +1,169 @@
+html, body {
+margin: 0;
+  padding: 0;
+}
+
+.contain {
+  text-align: center;
+  max-width: 940px;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.theheader {
+  background-color: #333;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+  letter-spacing: 1.6px;
+}
+
+.nav li a {
+  display: inline;
+  text-decoration: none;
+  transition: 0.4s;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+
+.nav li a:hover {
+  background-color: #ffffff;
+  color: #333;
+  font-weight: 900;
+  padding: 24px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.nav li{
+  display: inline;
+}
+
+#logo{ 
+    float: left;
+    display: flex;
+    position: fixed;
+    top:0;
+    width:92%;
+    height:44px;
+}
+
+.introductory {
+  font-style: Trattatello, fantasy;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  padding-top: 25px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.theheader input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.contact_info {
+ text-align: center;
+}
+
+.contactus {
+  text-align: center;
+}
+
+.catalog {
+  text-align: center;
+}
+
+#footer {
+  font-size: small;
+  color: gray;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.row2 {
+  margin: 8px -16px;
+}
+
+.row2,
+.row2 > .column2 {
+  padding: 10px;
+}
+
+.column2 {
+  float: left;
+  width: 20%;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content2 {
+  background-color: white;
+  padding: 10px;
+}
+
+.row3 {
+  margin: 8px -16px;
+}
+
+.row3,
+.row3 > .column3 {
+  padding: 10px;
+}
+
+.column3 {
+  float: left;
+  width: 20%;
+}
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content3 {
+  background-color: white;
+  padding: 10px;
+}
